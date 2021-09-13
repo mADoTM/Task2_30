@@ -7,6 +7,7 @@ public class Main {
         System.out.println(getCountGroups(2,1)); // 1
         System.out.println(getCountGroups(30,0)); // 0
         System.out.println(getCountGroups(20,15)); // 11
+        System.out.println(getCountGroups(45, 10));
     }
 
     private static int getCountGroups(int N, int M) {
