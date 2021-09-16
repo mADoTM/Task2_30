@@ -14,7 +14,7 @@ public class Main {
     }
 
     private static int readNumber(String childrenType) {
-        System.out.printf("Write count of  %s - ", childrenType);
+        System.out.printf("Write count of %s - ", childrenType);
         Scanner scn = new Scanner(System.in);
         int num = scn.nextInt();
 
